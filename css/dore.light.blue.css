@@ -1279,6 +1279,7 @@ button {
   .navbar .navbar-logo .logo-mobile {
     width: 20px;
     height: 35px;
+    display: inline;
     background: url("../img/logo_z.png") no-repeat;
     background-position: center center; }
   .navbar .search {
@@ -4262,19 +4263,26 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
       padding-left: 1.75rem !important; }
     .landing-page .landing-page-nav .navbar-logo {
       width: 120px;
-      height: 40px; }
+      height: 40px;
+      display: inline-block;
+     }
       .landing-page .landing-page-nav .navbar-logo .white {
         display: inline-block;
+        /* display: inline-block;
         width: 120px;
         height: 40px;
         background: url("../img/logo-white.svg");
-        background-repeat: no-repeat; }
+        background-repeat: no-repeat; 
+       */ 
+      }
       .landing-page .landing-page-nav .navbar-logo .dark {
-        width: 120px;
+        display: inline-block;
+        /* width: 120px;
         height: 40px;
         background: url("../img/logo-black.svg");
         background-repeat: no-repeat;
-        display: none; }
+        display: none;  */
+      }
     .landing-page .landing-page-nav .mobile-menu-button {
       font-size: 20px;
       display: none; }
@@ -4347,7 +4355,7 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
   .landing-page .landing-page-nav.headroom--unpinned {
     top: -125px; }
   .landing-page .landing-page-nav.headroom--not-top.headroom--pinned {
-    background: white;
+    background: #ddd;
     box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04); }
     .landing-page .landing-page-nav.headroom--not-top.headroom--pinned .navbar-logo .white {
       display: none; }

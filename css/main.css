@@ -4,6 +4,7 @@ html {
 
 body {
   overflow-x: hidden !important;
+  font-family: 'Roboto';
 }
 
 /* Hide everything under body tag */
